@@ -54,11 +54,12 @@ con.commit()
 # con.execute("delete from std where roll_no=? ",(roll_no,))
 # con.commit()
 
-# data=con.execute("select * from std where name like 'a%' ")
-# for i in data:
-#     print(i)
+# # data=con.execute("select * from std where name like 'a%' ")
+# # for i in data:
+# #     print(i)
 
-# data=con.execute("select * from std order by name desc")
+# data=con.execute("select * from std order by name desc") #(desc is a attribute to set to descending order by default it works as ascending order)
 # for i in data:
-#     print(i)
+#      print(i)
+
 
