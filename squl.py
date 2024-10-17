@@ -33,7 +33,7 @@ con.autocommit=True
 # data=cur.fetchall()
 # for i in data:
 #     print(i)
-cur.execute('select name,count(age)from std group by name')
-data=cur.fetchall()
-for i in data:
-    print(i)
+# cur.execute('select name,count(age)from std group by name')
+# data=cur.fetchall()
+# for i in data:
+#     print(i)
